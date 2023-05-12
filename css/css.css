@@ -1,0 +1,383 @@
+
+* {
+    /*//remove default margin and padding*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.img{
+    width: 100%;
+}
+
+.heder {
+    padding: 30px 14px ;
+}
+.paragraf0 {
+    font-size: 2.2rem;
+    color: rgb(1, 43, 85);
+    font-family:"GraFa-AdobeClean-Bold" ;
+}
+.box1 {
+    background-color: #F7F8F9;
+    padding-top: 38px;
+    padding-bottom: 33px;
+    padding-right: 35px;
+    padding-left: 35px ;
+}
+.paragraf1 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #012B55;
+    font-family:"GraFa-AdobeClean-Bold" ;
+    font-style: normal;
+}
+.paragraf2 {
+    text-align: center;
+    padding-top: 33px;
+    font-size: 1.4rem;
+    color: #597188;
+    font-family:"GraFa-AdobeClean-Bold" ;
+    font-style: normal;
+}
+
+.boximg {
+    padding-top: 5px;
+    position: relative;
+}
+.foter {
+    padding:25px 20px;
+}
+
+.foter_gerd {
+    display: flex;
+    justify-content: center;
+}
+.foter_gerd_1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(1, 43, 85, 0.1);
+    line-height: 30px;
+    margin: 0px 5px ;
+}
+.paragraf3{
+    line-height: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 400;
+    font-family:"GraFa-AdobeClean-Bold" ;
+}
+
+.foter_text {
+    padding-top: 15px;
+    font-family:"Vazir Black" ;
+    color: #597188;
+}
+
+
+.boximg:hover .overlay {
+    opacity: 1;
+}
+
+.work{
+    display: none;
+}
+
+.paragraf4{
+    display: none;
+}
+
+.Contact{
+    display: none;
+}
+.foter_gerd1{
+    display: none;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    fill:#012B55;
+}
+
+.foter_gerd_1:hover{
+    background-color:lightgray;
+    color:#fff;
+}
+
+
+.foter_gerd_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    fill:#012B55 ;
+}
+
+.img{
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #012B55;
+    display: table;
+    text-align: center;
+}
+.boximg:hover .overlay {
+    opacity:0.85;
+}
+.text {
+    color: white;
+    font-size: 1.8rem;
+    font-family:"GraFa-AdobeClean-Bold" ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+@media(min-width: 480px) and (max-width: 959px) {
+    .continer {
+        display: flex;
+    }
+    .boximgfather{
+        display: flex;
+    }
+    .boximg {
+        padding: 2px 2px;
+        position: relative;
+    }
+    .divar {
+        padding:20px ;
+    }
+    .work{
+        display:table;
+        font-size: 1.7rem;
+        color: rgb(1, 43, 85);
+        padding-top: 40px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+
+    .paragraf4{
+        display: table;
+        font-size: 1.6rem;
+        color: rgb(65, 87, 109);
+        padding-top: 20px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+
+    .Contact{
+        display:table;
+        font-size: 1.7rem;
+        color: rgb(1, 43, 85);
+        padding: 40px 0px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .paragraf0 {
+        font-size: 2.6rem;
+        color: rgb(1, 43, 85);
+        padding-top: 40px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .heder {
+        width:1000px ;
+        padding: 20px 40px;
+    }
+    .foter_gerd1 {
+        display: flex;
+        justify-content: left;
+    }
+    .paragraf1 {
+        font-size: 2.8rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .box1 {
+        padding: 110px 12% 90px;
+    }
+    .paragraf2{
+        font-size: 1.8rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .logo{
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        fill:#012B55;
+    }
+
+    .foter_gerd_1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        fill:#012B55 ;
+    }
+
+    .img{
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #012B55;
+        display: table;
+        text-align: center;
+    }
+    .boximg:hover .overlay {
+        opacity:0.85;
+    }
+    .text {
+        color: white;
+        font-size: 1.9rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+@media  (min-width: 960px){
+    .continer {
+        display: flex;
+    }
+    .boximgfather{
+        display: flex;
+    }
+    .boximg {
+        padding: 2px 2px;
+        position: relative;
+    }
+    .divar {
+        padding:20px ;
+    }
+    .work{
+        display:table;
+        font-size: 1.7rem;
+        color: rgb(1, 43, 85);
+        padding-top: 40px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+
+    .paragraf4{
+        display: table;
+        font-size: 1.6rem;
+        color: rgb(65, 87, 109);
+        padding-top: 20px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+
+    .Contact{
+        display:table;
+        font-size: 1.7rem;
+        color: rgb(1, 43, 85);
+        padding: 40px 0px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .paragraf0 {
+        font-size: 2.6rem;
+        color: rgb(1, 43, 85);
+        padding-top: 40px;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .heder {
+        width:1000px ;
+        padding: 20px 40px;
+    }
+    .foter_gerd1 {
+        display: flex;
+        justify-content: left;
+    }
+    .paragraf1 {
+        font-size: 2.8rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .box1 {
+        padding: 110px 12% 90px;
+    }
+    .paragraf2{
+        font-size: 1.8rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+    }
+    .logo{
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        fill:#012B55;
+    }
+
+    .foter_gerd_1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        fill:#012B55 ;
+    }
+
+    .img{
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #012B55;
+        display: table;
+        text-align: center;
+    }
+    .boximg:hover .overlay {
+        opacity:0.85;
+    }
+    .text {
+        color: white;
+        font-size: 1.8rem;
+        font-family:"GraFa-AdobeClean-Bold" ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
